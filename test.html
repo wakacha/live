@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="dist/controls.css">
+<script src="dist/shaka-player.ui.js"></script>
+
+<style>
+
+#container {
+  width: 768px;
+  height: 576px;
+}
+
+/* This is the CSS for your logo, to position it on top of the video. */
+#myLogo {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+}
+
+</style>
+
+<script>
+document.addEventListener('shaka-ui-loaded', function() {
+  const controls = video.ui.getControls();
+  const player = controls.getPlayer();
+  player.load(
+      'https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd');
+});
+</script>
+
+</head>
+<body>
+
+<div data-shaka-player-container id="container">
+  <video data-shaka-player id="video"></video>
+
+  <!-- This is your logo, a sibling of the video, inside the container. -->
+  <img id="myLogo" src="demo/shaka_logo_trans.png">
+</div>
+
+</body>
+</html>
