@@ -18,7 +18,7 @@ player.configure({
   drm: {
     clearKeys: {
       // 'key-id-in-hex': 'key-in-hex',
-      "b3ccf73a7a664f85ae7411367ffb2fa7": "9687d91b7fd647a88183d0a4cc925f77"
+      "c5e64178c33e4185a3406d84252cd7a0": "3bedd0bcd11756016c9a3ccbe79f6665"
     }
   }
             });
@@ -41,7 +41,7 @@ window.player = player;
 window.ui = ui; 
 player.addEventListener('error', onPlayerErrorEvent); 
 controls.addEventListener('error', onUIErrorEvent); 
-try{await player.load('https://d3j4fjrwclc3o8.cloudfront.net/CH1/masterCH1.mpd'); 
+try{await player.load('https://d3ey18635ukr4v.cloudfront.net/CH1/masterCH1.mpd'); 
 console.log('The video has now been loaded!');} catch (error) {onPlayerError(error);}} 
 function onPlayerErrorEvent(errorEvent) {onPlayerError(event.detail);} 
 function onPlayerError(error) {console.error('Error code', error.code, 'object', error);} 
