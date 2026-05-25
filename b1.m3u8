@@ -1,0 +1,14 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:10
+#EXT-X-MEDIA-SEQUENCE:1779650001
+#EXTINF:10.000000,
+https://cdn.inteltelevision.com/4987/go_badminton2/201806_1779650001.ts
+#EXTINF:10.000000,
+https://cdn.inteltelevision.com/4987/go_badminton2/201819_1779650002.ts
+#EXTINF:10.000000,
+https://cdn.inteltelevision.com/4987/go_badminton2/201825_1779650003.ts
+#EXTINF:10.000000,
+https://cdn.inteltelevision.com/4987/go_badminton2/201837_1779650004.ts
+#EXTINF:10.000000,
+https://cdn.inteltelevision.com/4987/go_badminton2/201849_1779650005.ts
