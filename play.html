@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<!--<head>
+<link href='https://www.blogger.com/static/v1/widgets/4165133002-widget_css_bundle.css' rel='stylesheet' type='text/css'/>
+--><head>
+    <script>
+    // Disable right-click
+document.addEventListener('contextmenu', (e) => e.preventDefault());
+
+function ctrlShiftKey(e, keyCode) {
+  return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+}
+
+document.onkeydown = (e) => {
+  // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
+  if (
+    event.keyCode === 123 ||
+    ctrlShiftKey(e, 'I') ||
+    ctrlShiftKey(e, 'J') ||
+    ctrlShiftKey(e, 'C') ||
+    (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))
+  )
+    return false;
+}; </script>
+<meta content='never' name='referrer'/>
+<meta charset='utf-8'/>
+<meta content='noindex,nofollow,noarchive' name='robots'/>
+<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+<style id='page-skin-1' type='text/css'><!--
+
+--></style>
+<style>
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  #facebook { display: none; }
+  .mobile-hide{ display: none; }
+}
+.phoneContent { display: none;}
+   /* Smartphone Portrait and Landscape */
+   @media only screen
+   and (min-device-width : 100px)
+   and (max-device-width : 799px){ .phoneContent { display: inline;}}
+   
+   .deskContent { display: inline;}
+   /* Smartphone Portrait and Landscape */
+   @media only screen
+   and (min-device-width : 800px)
+   and (max-device-width : 1024px){  .deskContent { display: none;}}
+</style>
+<style>*{margin:0;padding:0}</style>
+<style>
+.responsive {
+    width: 100%;
+    height: 100%;
+}
+</style>
+<style>
+.video-inner span{
+ position: absolute;
+ right: -10px;
+ bottom: 15px;
+ background: rgba(58, 58, 58, 0.61);
+ padding: 7px 20px;
+ font-family: 'Ropa Sans', sans-serif;
+ color: #fff;
+}
+.viwes {
+ padding: 11px 0px;
+} 
+.video-inner img{
+ background: #000;
+ padding: 10px;
+ box-shadow: 0px 0px 10px rgb(228, 228, 228);
+}
+.video-inner{
+ position:relative;
+ width: 100%;
+}
+</style>
+<style>
+  *{margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;outline:none;-webkit-border:0;-moz-border:0;border:0;cursor:none;-webkit-user-select:none;-moz-user-select:none;user-select:none;}html,body{width:100vw;width:100svw;height:100vh;height:100svh;background:#000;overflow:hidden;}video{width:100vw;width:100svw;height:100vh;height:100svh;overflow:hidden}.theme-blue .shaka-controls-button-panel .material-icons-round{color:#eee}.theme-blue .shaka-overflow-menu,.theme-blue .shaka-settings-menu{background:rgba(0,0,0,0.8);border-radius:4px;}.theme-blue .shaka-overflow-menu span+span{font-size:80%;color:#fff;padding-top:2px}.theme-blue .shaka-overflow-menu button,.theme-blue .shaka-settings-menu button{color:#fff;transition:all .2s linear;}.theme-blue .shaka-overflow-menu button:hover,.theme-blue .shaka-settings-menu button:hover{background:#3275e4;cursor:auto}
+  
+.crot,.crot a{overflow:hidden}.crot,.crot a,.crot li{width:100%;box-sizing:border-box;display:flex}.button,.crot a,.crot li{text-align:center;position:relative}.button,.crot,.crot a,.crot li{position:relative}.crot{clear:both;background:#000;max-height:13px;padding:0 2px;margin:0;list-style:none}.crot li{margin:2px;float:right;z-index:3;flex:1;align-items:center;justify-content:center}.crot a{background:#35a2f6;font-size:16px;cursor:pointer;padding:5px;border:0;text-shadow:0 1px 1px rgba(0,0,0,.3);box-shadow:0 0 0 #d6d6d6;border-radius:1px;height:43px;flex:1;font-weight:600;align-items:center;justify-content:center;color:#fff!important;transition:.3s cubic-bezier(.68, -.55, .27, 1.55)}.crot a.active,.crot a:hover{background:#0d1655;color:#fff!important}.button{background:#0d1655;cursor:pointer;font-size:14px;float:left;display:block;border-radius:2px;height:25px;line-height:22px;text-shadow:0 1px 1px #000;color:#fff;padding:0 10px;font-family:sans-serif;font-weight:700;z-index:99} .bitmovinplayer-ad-container, .bitmovinplayer-container{direction:ltr;}.bmpui-ui-watermark{display: none; !important}
+    
+   /* Gaya untuk button aktif */
+ul.crot li button.active {
+    position: fixed; 
+    top: 5px;
+    background-color: #063387; /* Warna latar belakang biru tua untuk tombol aktif */
+    color: white; /* Warna teks putih */
+    border: none; /* Hilangkan border */
+    padding: 1px 5px; /* Padding untuk button */
+    font-size: 14px; /* Ukuran font */
+    font-weight: normal; /* Teks menjadi bold */
+    border-radius: 0px; /* Sudut membulat */
+    cursor: pointer; /* Ubah kursor saat hover */
+    transition: background-color 0.3s, transform 0.2s; /* Transisi untuk background-color dan transform */
+}
+
+/* Gaya untuk tombol non-aktif */
+ul.crot li button:not(.active) {
+    position: fixed;
+    top: 5px;
+    background-color: #0b91cf; /* Warna latar belakang biru muda untuk tombol non-aktif */
+    color: white; /* Warna teks tetap putih */
+    border: none; /* Hilangkan border */
+    padding: 2px 5px; /* Padding untuk button */
+    font-size: 14px; /* Ukuran font */
+    font-weight: normal; /* Teks menjadi bold */
+    border-radius: 0px; /* Sudut membulat */
+    cursor: pointer; /* Ubah kursor saat hover */
+    transition: background-color 0.3s, transform 0.2s; /* Transisi untuk background-color dan transform */
+}
+
+/* Gaya untuk tombol saat di-hover */
+ul.crot li button:hover {
+    background-color: #0056b3; /* Warna latar belakang lebih gelap saat hover */
+}
+
+/* Gaya untuk tombol saat di-klik */
+ul.crot li button:active {
+    background-color: #0d1655; /* Warna latar belakang lebih gelap saat di-klik */
+}
+
+           
+  </style>
+     <!--<link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=4514836797618465364&amp;zx=358049cf-93b0-48b8-80d7-fbc472f36d56' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=4514836797618465364&amp;zx=358049cf-93b0-48b8-80d7-fbc472f36d56' rel='stylesheet'/></noscript>
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+
+</head>--></head>
+<!--<body>--><body>   
+<div id='body-wrapfull'><div id='body-wrap'>
+<div style='clear:both;'></div>
+<div id='outer-wrapper'><div id='wrap2'>
+<div id='content-wrapper'>
+<div id='crosscol-wrapper' style='text-align:center'>
+<div class='crosscol no-items section' id='crosscol'></div>
+</div>
+<div id='main-wrapper'>
+<div class='main section' id='main'><div class='widget Blog' data-version='1' id='Blog1'>
+<div class='blog-posts hfeed'>
+
+          <div class="date-outer">
+        
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<script src="https://cdn.jsdelivr.net/npm/clappr@0.3.5/dist/clappr.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dash-shaka-playback@3.6.3/dist/dash-shaka-playback.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1.4.12"></script>
+<script src="https://cdn.jsdelivr.net/npm/@clappr/hlsjs-playback@1.9.4/dist/hlsjs-playback.min.js"></script>
+
+
+
+<div style="aspect-ratio:16/9; background:#000">
+  <div id="player" style="width:100%;height:100%"></div>
+</div>
+
+<script>
+/* ===== SOURCE STATS ===== */
+function getStats() {
+  return JSON.parse(localStorage.getItem('rtm_stats') || '{}');
+}
+
+function saveStats(stats) {
+  localStorage.setItem('rtm_stats', JSON.stringify(stats));
+}
+
+function markFail(src) {
+  const stats = getStats();
+  stats[src] = stats[src] || { ok: 0, fail: 0 };
+  stats[src].fail++;
+  saveStats(stats);
+}
+
+function markOk(src) {
+  const stats = getStats();
+  stats[src] = stats[src] || { ok: 0, fail: 0 };
+  stats[src].ok++;
+  saveStats(stats);
+}
+
+/* ===== SOURCE LIST ===== */
+var sources = [
+  "https://ngtv-live-cbj.gcdn.co/Content/DASH/Live/channel(TV3)/master.mpd",
+    "https://on.tv3new.workers.dev/tv3.m3u8",
+    "https://on.1tv3.workers.dev/tv3.m3u8",
+    "https://on.2tv3.workers.dev/tv3.m3u8",
+    "https://on.3tv3.workers.dev/tv3.m3u8",  
+    "https://on.4tv3.workers.dev/tv3.m3u8",
+    "https://infominyak.my/t/tv3.m3u8",
+   // "https://on.bbr1.workers.dev/tv3.m3u8",
+    //"https://on.bbr3.workers.dev/tv3.m3u8",
+    "https://bergaul.my/t/tv3.m3u8"
+];
+
+/* ===== SORT SOURCE ===== */
+const statsForSort = getStats();
+sources.sort(function (a, b) {
+  const sa = statsForSort[a] || { fail: 0 };
+  const sb = statsForSort[b] || { fail: 0 };
+  return sa.fail - sb.fail;
+});
+
+/* ===== SESSION PINNING ===== */
+function getPinnedSource() {
+  let pinned = sessionStorage.getItem('rtm_source');
+  if (pinned && sources.includes(pinned)) {
+    return pinned;
+  }
+  let pick = sources[Math.floor(Math.random() * sources.length)];
+  sessionStorage.setItem('rtm_source', pick);
+  return pick;
+}
+
+function pinSource(src) {
+  sessionStorage.setItem('rtm_source', src);
+}
+
+/* ===== PLAYER INIT ===== */
+var currentSourceIndex = sources.indexOf(getPinnedSource());
+if (currentSourceIndex < 0) currentSourceIndex = 0;
+var failCount = 0;
+var MAX_FAIL = sources.length;
+
+var player = new Clappr.Player({
+  source: sources[currentSourceIndex],
+  parentId: "#player",
+  width: "100%",
+  height: "100%",
+  autoPlay: true,
+  mute: true,
+  preload: 'auto',
+  playback: {
+    playInline: true,
+    hlsjsConfig: {
+      enableWorker: true,
+      lowLatencyMode: true,
+    }
+  },
+  plugins: { 
+    playback: [DashShakaPlayback, HlsjsPlayback] 
+  },
+  shakaConfiguration: {
+    streaming: {
+      lowLatencyMode: true,
+      bufferingGoal: 6,
+      rebufferingGoal: 2,
+      alwaysStreamText: false,
+    },
+    manifest: {
+      dash: {
+        ignoreMinBufferTime: true,
+      }
+    },
+    drm: {
+      clearKeys: {
+        "60dc08aae52f4c0b806a8e43f24a12c8": "30d5b579966d822b215ec51a91d8a271",
+        'ce43641a061a44fb9d95d986cfc9a68f': '3d63855ca5cdfcfb765f306b98bcc646'
+      }
+    }
+  }
+});
+
+/* ===== FAILOVER LOGIC ===== */
+async function checkSource(url) {
+  try {
+    const controller = new AbortController();
+    const id = setTimeout(() => controller.abort(), 2000); // 2s timeout
+    const response = await fetch(url, { method: 'HEAD', mode: 'no-cors', signal: controller.signal });
+    clearTimeout(id);
+    return true; // If we get any response, even no-cors, it's likely alive
+  } catch (e) {
+    return false;
+  }
+}
+
+async function loadNextSource() {
+  failCount++;
+  if (failCount >= MAX_FAIL) {
+    console.error("Semua source gagal. Stop retry.");
+    return;
+  }
+  markFail(sources[currentSourceIndex]);
+  
+  console.warn("Mencari source yang aktif...");
+  
+  // Try to find next working source by skipping known failures
+  let found = false;
+  for (let i = 0; i < 5; i++) { // Check next 5 sources
+    let nextIndex = (currentSourceIndex + 1) % sources.length;
+    currentSourceIndex = nextIndex;
+    
+    // Quick pre-check
+    const isAlive = await checkSource(sources[currentSourceIndex]);
+    if (isAlive) {
+      found = true;
+      break;
+    }
+    console.warn("Skip source mati:", sources[currentSourceIndex]);
+    markFail(sources[currentSourceIndex]);
+    failCount++;
+  }
+
+  pinSource(sources[currentSourceIndex]);
+  player.load(sources[currentSourceIndex]);
+}
+
+/* ===== EVENT HANDLING ===== */
+player.on(Clappr.Events.PLAYER_ERROR, function (e) {
+  console.warn("PLAYER ERROR:", e);
+  loadNextSource();
+});
+
+player.on(Clappr.Events.PLAYER_PLAY, function () {
+  markOk(sources[currentSourceIndex]);
+  failCount = 0;
+});
+
+/* ===== CHANNEL CLICK ===== */
+document.querySelectorAll(".channel").forEach(el => {
+  el.addEventListener("click", () => {
+    try {
+      // Remove active class from all buttons
+      document.querySelectorAll(".channel").forEach(btn => btn.classList.remove("active"));
+      // Add active class to clicked button
+      el.classList.add("active");
+      
+      // Load new sources
+      sources = JSON.parse(el.dataset.sources);
+      currentSourceIndex = 0;
+      failCount = 0;
+      pinSource(sources[0]);
+      player.load(sources[0]);
+    } catch (e) {
+      console.error("Source error", e);
+    }
+  });
+});
+
+/* ===== FULLSCREEN ORIENTATION ===== */
+function onFullScreenChange() {
+  if (document.fullscreenElement || document.webkitFullscreenElement) {
+    screen.orientation?.lock("landscape").catch(() => {});
+  } else {
+    screen.orientation?.unlock?.();
+  }
+}
+
+document.addEventListener("fullscreenchange", onFullScreenChange);
+document.addEventListener("webkitfullscreenchange", onFullScreenChange);
+</script>
+
+
+
+<script>
+    var daftarSitusDiizinkan = [
+        'https://www.tvmy.online',
+		'https://www.tvonline.my',
+		'https://www.onlinetv.my',       
+        'https://www.livetv.my'
+    ];
+    // Fungsi untuk memeriksa referer dan menghapus iframe jika tidak diizinkan
+    function periksaReferer() {
+        var referer = document.referrer;
+        var diizinkan = false;
+
+        for (var i = 0; i < daftarSitusDiizinkan.length; i++) {
+            if (referer.indexOf(daftarSitusDiizinkan[i]) === 0) {
+                diizinkan = true;
+                break;
+            }
+        }
+
+        if (!diizinkan) {
+            // Hapus semua elemen dalam badan dokumen
+            document.body.innerHTML = '';
+
+            // Tampilkan pesan "Not Found"
+            var notFoundMessage = document.createElement('h1');
+            notFoundMessage.textContent = 'Not Found';
+            document.body.appendChild(notFoundMessage);
+        }
+    }
+
+    // Fungsi untuk memeriksa apakah halaman dimuat di dalam iframe
+    function isInIframe() {
+        try {
+            return window.self !== window.top;
+        } catch (e) {
+            return true;
+        }
+    }
+
+    // Panggil fungsi periksaReferer saat halaman dimuat
+    window.onload = function() {
+        periksaReferer();
+
+        // Jika halaman tidak dimuat di dalam iframe (diakses langsung), lakukan redirect
+        if (!isInIframe()) {
+            window.location.href = 'https://www.google.com/';
+        }
+    };
+</script>
+<div style='clear: both;'></div>
+</div>
+<div class='comments' id='comments'>
+<a name='comments'></a>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+<div class='clear'></div>
+<div class='post-feeds'>
+</div>
+</div></div>
+</div>
+</div>
+<!-- end content-wrapper -->
+</div></div>
+<!-- end outer-wrapper -->
+<div style='clear:both;'></div>
+</div>
+</div>
+
+<!--
+<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/321148285-widgets.js"></script>
+<script type='text/javascript'>
+window['__wavt'] = 'AEUoTZry_7AQ0WltG0gEgQrgADB-:1784175705345';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d4514836797618465364','//styleanecdotes.blogspot.com/2024/11/tv9.html','4514836797618465364');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '4514836797618465364', 'title': 'styleanecdotes', 'url': 'https://styleanecdotes.blogspot.com/2024/11/tv9.html', 'canonicalUrl': 'https://styleanecdotes.blogspot.com/2024/11/tv9.html', 'homepageUrl': 'https://styleanecdotes.blogspot.com/', 'searchUrl': 'https://styleanecdotes.blogspot.com/search', 'canonicalHomepageUrl': 'https://styleanecdotes.blogspot.com/', 'blogspotFaviconUrl': 'https://styleanecdotes.blogspot.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'id', 'localeUnderscoreDelimited': 'id', 'languageDirection': 'ltr', 'isPrivate': true, 'isMobile': false, 'isMobileRequest': true, 'mobileClass': '', 'isPrivateBlog': false, 'isDynamicViewsAvailable': true, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22styleanecdotes - Atom\x22 href\x3d\x22https://styleanecdotes.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22styleanecdotes - RSS\x22 href\x3d\x22https://styleanecdotes.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22styleanecdotes - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/4514836797618465364/posts/default\x22 /\x3e\n\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22styleanecdotes - Atom\x22 href\x3d\x22https://styleanecdotes.blogspot.com/feeds/8148678555314501766/comments/default\x22 /\x3e\n', 'meTag': '', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': false, 'adsenseAutoAds': false, 'boqCommentIframeForm': true, 'loginRedirectParam': '', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/0b901e5396ee8015', 'plusOneApiSrc': 'https://apis.google.com/js/platform.js', 'disableGComments': true, 'interstitialAccepted': false, 'sharing': {'platforms': [{'name': 'Dapatkan link', 'key': 'link', 'shareMessage': 'Dapatkan link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Bagikan ke Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'X', 'key': 'twitter', 'shareMessage': 'Bagikan ke X', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Bagikan ke Pinterest', 'target': 'pinterest'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'disableGooglePlus': true, 'googlePlusShareButtonWidth': 0, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27id\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': true, 'jumpLinkMessage': 'Read more \xbb', 'pageType': 'item', 'postId': '8148678555314501766', 'pageName': 'tv3', 'pageTitle': 'styleanecdotes: tv3'}}, {'name': 'features', 'data': {}}, {'name': 'messages', 'data': {'edit': 'Edit', 'linkCopiedToClipboard': 'Tautan disalin ke papan klip!', 'ok': 'Oke', 'postLink': 'Tautan Pos'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Khusus', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'tv3', 'description': '                  ', 'url': 'https://styleanecdotes.blogspot.com/2024/11/tv9.html', 'type': 'item', 'isSingleItem': true, 'isMultipleItems': false, 'isError': false, 'isPage': false, 'isPost': true, 'isHomepage': false, 'isArchive': false, 'isLabelSearch': false, 'postId': 8148678555314501766}}]);
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', document.getElementById('Blog1'), {'cmtInteractionsEnabled': false}, 'displayModeFull'));
+</script>
+</body>--></body>
+</html>
